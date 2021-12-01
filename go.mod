@@ -5,6 +5,7 @@ go 1.16
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.2
 	github.com/MakeNowJust/heredoc v1.0.0
+	github.com/Netflix/go-expect v0.0.0-20211003183012-e1a7c020ce25
 	github.com/briandowns/spinner v1.13.0
 	github.com/charmbracelet/glamour v0.3.0
 	github.com/cli/browser v1.1.0
@@ -19,6 +20,7 @@ require (
 	github.com/gorilla/websocket v1.4.2
 	github.com/hashicorp/go-version v1.3.0
 	github.com/henvic/httpretty v0.0.6
+	github.com/hinshun/vt10x v0.0.0-20180809195222-d55458df857c
 	github.com/itchyny/gojq v0.12.5
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
 	github.com/mattn/go-colorable v0.1.12

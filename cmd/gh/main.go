@@ -254,6 +254,10 @@ func mainRun() exitCode {
 			ansi.Color(newRelease.URL, "yellow"))
 	}
 
+	if it := os.Getenv("GH_INTEGRATION_TEST"); it != "" {
+		fmt.Fprintf(stderr, "FINISHED")
+	}
+
 	return exitOK
 }
 
