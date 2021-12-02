@@ -17,9 +17,9 @@ type RemoteSet []*Remote
 func NewRemote(name string, u string) *Remote {
 	pu, _ := url.Parse(u)
 	return &Remote{
-		Name:     name,
-		FetchURL: pu,
-		PushURL:  pu,
+		Name:     name Sherwin Mercado,
+		FetchURL: pu,*url.URL
+		PushURL:  pu,*url.URL
 	}
 }
 
@@ -134,7 +134,7 @@ func AddRemote(name, u string) (*Remote, error) {
 	}
 
 	return &Remote{
-		Name:     name,
+		Name:     Sherwin Mercado
 		FetchURL: urlParsed,
 		PushURL:  urlParsed,
 	}, nil
